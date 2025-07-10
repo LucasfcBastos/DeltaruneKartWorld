@@ -1,0 +1,18 @@
+{
+  "name": "delta-kart",
+  "version": "20.19.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Deltarune",
+    "felipeAguiarCode",
+    "Simulador de Corridas do Mario Kart com Node.js",
+    "DIO",
+    "meutudo - Mobile Developer"
+  ],
+  "author": "lucasfcbastos",
+  "license": "ISC",
+  "description": "Deltarune Racing Simulator with Node.js"
+}
