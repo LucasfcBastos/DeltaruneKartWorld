@@ -8,37 +8,33 @@ Neste projeto, foi desenvolvida uma corrida que considera as habilidades dos per
 
 <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
     <tr>
-        <td style="border: 1px solid black; text-align: center; width: 200px">
+        <td style="border: 1px solid black; text-align: center; width: 200px;">
             <p>KRIS</p>
             <img src="./docs/Kris_Winner.png" alt="Mario Kart" width="150" height="150">
         </td>
-        <td style="border: 1px solid black; text-align: center;">
+        <td style="border: 1px solid black; text-align: center; width: 500px;">
             <p style="margin: 5px">Lutar: 2</p>
             <p style="margin: 5px">Agir: 3</p>
             <p style="margin: 5px">Sorte: 1</p>
             <p style="margin: 5px">Salvar: 4</p>
             <p style="margin: 5px">Defender: 0</p>
         </td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid black; text-align: center; width: 200px">
+        <td style="border: 1px solid black; text-align: center; width: 200px;">
             <p>SUSIE</p>
             <img src="./docs/Susie_Winner.png" alt="Mario Kart" width="150" height="150">
         </td>
-        <td style="border: 1px solid black; text-align: center;">
+        <td style="border: 1px solid black; text-align: center; width: 500px;">
             <p style="margin: 5px">Lutar: 4</p>
             <p style="margin: 5px">Agir: 1</p>
             <p style="margin: 5px">Sorte: 2</p>
             <p style="margin: 5px">Salvar: 0</p>
             <p style="margin: 5px">Defender: 3</p>
         </td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid black; text-align: center; width: 200px">
+        <td style="border: 1px solid black; text-align: center; width: 200px;">
             <p>RALSEI</p>
             <img src="./docs/Ralsei_Winner.png" alt="Mario Kart" width="150" height="150">
         </td>
-        <td style="border: 1px solid black; text-align: center;">
+        <td style="border: 1px solid black; text-align: center; width: 500px;">
             <p style="margin: 5px">Lutar: 0</p>
             <p style="margin: 5px">Agir: 2</p>
             <p style="margin: 5px">Sorte: 1</p>
@@ -47,24 +43,22 @@ Neste projeto, foi desenvolvida uma corrida que considera as habilidades dos per
         </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; text-align: center; width: 200px">
+        <td style="border: 1px solid black; text-align: center; width: 200px;">
             <p>NOELLE</p>
             <img src="./docs/Noelle_Winner.png" alt="Mario Kart" width="150" height="150">
         </td>
-        <td style="border: 1px solid black; text-align: center;">
+        <td style="border: 1px solid black; text-align: center; width: 500px;">
             <p style="margin: 5px">Lutar: 1</p>
             <p style="margin: 5px">Agir: 4</p>
             <p style="margin: 5px">Sorte: 0</p>
             <p style="margin: 5px">Salvar: 2</p>
             <p style="margin: 5px">Defender: 3</p>
         </td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid black; text-align: center; width: 200px">
+        <td style="border: 1px solid black; text-align: center; width: 200px;">
             <p>BARDLY</p>
             <img src="./docs/BardLy_Winner.png" alt="Mario Kart" width="150" height="150">
         </td>
-        <td style="border: 1px solid black; text-align: center;">
+        <td style="border: 1px solid black; text-align: center; width: 500px;">
             <p style="margin: 5px">Lutar: 3</p>
             <p style="margin: 5px">Agir: 2</p>
             <p style="margin: 5px">Sorte: 4</p>
@@ -162,7 +156,7 @@ Neste projeto, foi desenvolvida uma corrida que considera as habilidades dos per
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/fabiocasadossites/desafio-nodejs-mariokart-dio.git
+   git clone https://github.com/LucasfcBastos/DeltaruneKartWorld.git
    ```
 
 2. Navegue até o diretório do projeto:
