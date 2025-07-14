@@ -10,7 +10,8 @@ const personagem1 = {
     salvar: 4,
     defender: 0,
     pontos: 0,
-    imagem: '../docs/Kris_Winner.png'
+    imagem: '../docs/Kris_Winner.png',
+    ataque: 'Standard Slash'
 }
 
 const personagem2 = {
@@ -21,7 +22,8 @@ const personagem2 = {
     salvar: 0,
     defender: 3,
     pontos: 0,
-    imagem: '../docs/Susie_Winner.png'
+    imagem: '../docs/Susie_Winner.png',
+    ataque: 'Rude Buster'
 }
 
 const personagem3 = {
@@ -32,7 +34,8 @@ const personagem3 = {
     salvar: 3,
     defender: 4,
     pontos: 0,
-    imagem: '../docs/Ralsei_Winner.png'
+    imagem: '../docs/Ralsei_Winner.png',
+    ataque: 'Pacify'
 }
 
 const personagem4 = {
@@ -43,7 +46,8 @@ const personagem4 = {
     salvar: 2,
     defender: 3,
     pontos: 0,
-    imagem: '../docs/Noelle_Winner.png'
+    imagem: '../docs/Noelle_Winner.png',
+    ataque: 'SnowGrave'
 }
 
 const personagem5 = {
@@ -54,7 +58,8 @@ const personagem5 = {
     salvar: 1,
     defender: 0,
     pontos: 0,
-    imagem: '../docs/BardLy_Winner.png'
+    imagem: '../docs/BardLy_Winner.png',
+    ataque: 'FlashStrike'
 }
 
 const personagens = [personagem1, personagem2, personagem3, personagem4, personagem5];
@@ -112,7 +117,7 @@ async function pegarItemBau(personagem, adiversario, valor) {
                 console.log(`\n${personagem.nome} pegou o MACHADO DA JUSTIÇA\n${adiversario.nome} recebe -1 ponto`);
                 adiversario.pontos--
             } else {
-                console.log(`\n${personagem.nome} pegou o MACHADO DA JUSTIÇA\nEntretanto desiste de atacar o ${adiversario.nome} por pena`);
+                console.log(`\n${personagem.nome} pegou o MACHADO DA JUSTIÇA\nEntretanto desiste de atacar ${adiversario.nome} por pena`);
             }
             break;
         case valor == 9 || valor == 10:
@@ -169,7 +174,7 @@ async function jogoMotores(kart1, kart2) {
                     console.log(`\n${kart2.nome} assuma a liderança \n${kart2.nome} recebe +1 ponto`)
                     kart2.pontos++
                 } else {
-                    console.log(`\n${kart1.nome} e ${kart2.nome} mantem a velocidade\nNinguém recebe pontos`)
+                    console.log(`${kart1.nome} e ${kart2.nome} mantem a velocidade\nNinguém recebe pontos`)
                 }
 
             } else if(blocos[i] === "CURVA") {
@@ -206,7 +211,7 @@ async function jogoMotores(kart1, kart2) {
                     totalRound2 = resultadoDado2 + kart2.lutar
                     exibirResultados(kart2.nome, "lutar", totalRound2, resultadoDado2, kart2.lutar)
 
-                    if (kart1.pontos > 0 && totalRound1 < totalRound2) {
+                    if (kart1.pontos > 0 && totalRound1 <= totalRound2) {
                         console.log(`\n${kart2.nome} acerta um ataque em ${kart1.nome}\n${kart1.nome} recebe -1 ponto`)
                         kart1.pontos--
                     } else if (kart1.pontos > 0 && totalRound1 > totalRound2) {
@@ -310,6 +315,8 @@ async function jogoMotores(kart1, kart2) {
 
                 }
             }
+
+            console.log(`\n==========================\n${kart1.nome} = ${kart1.pontos}\n${kart2.nome} = ${kart2.pontos}`)
 
         }
         
